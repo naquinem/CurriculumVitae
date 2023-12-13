@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 60px;
+    animation: fadeIn 1.5s ease-in-out;
+    background-color: rgb(35, 24, 24);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+header {
+    text-align: center;
+}
+p {
+    color: whitesmoke;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h1 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.section h3 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    color: whitesmoke;
+    font-size: 16px;
+    width: 50%;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    width: 50%;
+}
+
+.skills li {
+    display: inline-block;
+    background-color: #269e2a;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 600px) {
+    body {
+        margin: 20px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .contact-info, .section, .section h3, .section p, .skills, .skills li {
+        font-size: 14px;
+    }
+}
